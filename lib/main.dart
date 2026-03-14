@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+      //This is for individual mobile project by using X(Twitter) as a reference for responsive design and UI elements.
 
 void main() {
   runApp(const XApp());
@@ -244,10 +245,12 @@ class XFeed extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<Post> posts = [
-      Post(user: "Natchanan", handle: "@dnatchanan_", content: "Flutter responsive DEMO ✨ #Flutter #AdaptiveUI", time: "1h"),
+      Post(user: "Natchanan", handle: "@natchanan_", content: "Flutter responsive DEMO ✨ #Flutter #AdaptiveUI", time: "1h"),
       Post(user: "Elon Musk (Mock)", handle: "@elonmusk", content: "Starship landing was amazing today!", imageUrl: "https://picsum.photos/id/237/600/400", time: "2h"),
       Post(user: "ปลาแซลม่อน", handle: "@salmon_fish", content: "Salmon sushi for lunch! 🥢🍣", imageUrl: "https://picsum.photos/id/1/600/300", time: "4h"),
       Post(user: "CAMT CMU", handle: "@camt_cmu", content: "บรรยากาศที่ CAMT วันนี้แดดฉ่ำมากค่ะน้าาาา", imageUrl: "https://picsum.photos/id/10/600/400", time: "5h"),
+      Post(user: "Cafe Hopper",handle: "@cafe_cnx", content: "คาเฟ่เปิดใหม่แถวหลังมอ ถ่ายรูปสวยมาก แสงดีสุดๆ ใครสายคอนเทนต์ห้ามพลาด!", imageUrl: "https://picsum.photos/id/42/600/400", time: "8h"),
+      Post(user: "Nature Lover", handle: "@mountain_hike", content: "Morning mist at Doi Inthanon today. 🏔️☁️ #ChiangMai #Thailand", imageUrl: "https://picsum.photos/id/15/600/400", time: "1d"),
     ];
 
     return ListView.builder(
