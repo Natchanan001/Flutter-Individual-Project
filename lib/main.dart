@@ -106,6 +106,9 @@ class _XHomePageState extends State<XHomePage> {
         NavigationRail(
           backgroundColor: Colors.black,
           labelType: NavigationRailLabelType.none,
+          indicatorColor: Colors.transparent,
+          selectedIconTheme: const IconThemeData(color: Colors.white),
+          unselectedIconTheme: const IconThemeData(color: Colors.grey),
           leading: Column(
             children: [
               const SizedBox(height: 10),
