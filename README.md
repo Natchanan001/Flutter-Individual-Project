@@ -3,14 +3,22 @@
 ### 📝 Project Description
 This project is a high-fidelity simulation of the **X (Twitter)** Home screen, developed to demonstrate **Responsive Design** and **Adaptive UI** principles in Flutter. The goal is to ensure a seamless and visually balanced user experience across multiple screen sizes, including Mobile, Tablet, and Desktop/Web platforms.
 
-> **Note:** This project is developed and submitted exclusively for the **953464 Mobile Application Development** course.
+> **Note:** This project is developed and submitted for the **953464 Mobile Application Development** course.
 
 ---
 
 ## 📸 Project Screenshots
-- **Mobile View:** `<img width="500" height="716" alt="Image" src="https://github.com/user-attachments/assets/1c6b8e23-40b7-4125-9e58-dd91adbaa110" />`
-- **Tablet View:** `<img width="786" height="716" alt="Image" src="https://github.com/user-attachments/assets/8f78394e-8248-401a-864a-5ecca93717e9" />`
-- **Desktop/Web View:** `<img width="1446" height="715" alt="Image" src="https://github.com/user-attachments/assets/69a32cad-122a-4c08-94b4-702dfeacac10" />`
+- **Mobile View:** 
+<img width="250" height="500" alt="Image" src="https://github.com/user-attachments/assets/4c961b81-2d91-4941-b3af-39b508f86ed2" />
+
+
+- **Tablet View:** 
+<img width="450" height="370" alt="Image" src="https://github.com/user-attachments/assets/0c37f6f4-b1f0-4334-a209-93cefc770694" />
+
+
+- **Desktop/Web View:** 
+<img width="723" height="357" alt="Image" src="https://github.com/user-attachments/assets/69a32cad-122a-4c08-94b4-702dfeacac10" />
+
 
 ---
 
