@@ -1,7 +1,7 @@
 # X (Twitter) Responsive Design Demo (Individual Project 662115022)
 
 ### 📝 Project Description
-This project is a high-fidelity simulation of the **X (Twitter)** Home screen, developed to demonstrate **Responsive Design** and **Adaptive UI** principles in Flutter. The goal is to ensure a seamless and visually balanced user experience across multiple screen sizes, including Mobile, Tablet, and Desktop/Web platforms.
+This project is a simulation of the **X (Twitter)** Home screen, developed to demonstrate **Responsive Design** and **Adaptive UI** principles in Flutter. The goal is to ensure a seamless and visually balanced user experience across multiple screen sizes, including Mobile, Tablet, and Desktop/Web platforms.
 
 > **Note:** This project is developed and submitted for the **953464 Mobile Application Development** course.
 
@@ -30,6 +30,20 @@ To create a realistic UI while maintaining code quality, the following Flutter w
 * **ListView.builder:** Efficiently manages the tweet feed (Mock Data) to ensure smooth scrolling.
 * **CircleAvatar & ClipRRect:** Handles profile images and post media with rounded corners (15px radius) as seen in the actual X app.
 
+## ⚙️ Technical Features
+* **State Management:** Used StatefulWidget to handle dynamic UI changes when switching between orientations.
+
+* **Dark Mode Theme:** Fully implemented using ThemeData to match X’s iconic dark aesthetic.
+
+* **Dynamic Content Loading:** Integrated a mock data system with a custom Post model, simulating real-world data structures.
+
+---
+
+## 🧩 Challenges & Solutions
+* **Challenge:** Managing inconsistent layout transitions when resizing the browser window.
+
+* **Solution:** Applied LayoutBuilder combined with MediaQuery to ensure the BottomNavigationBar and FloatingActionButton only appear on mobile devices, providing a cleaner desktop experience.
+
 ---
 
 ## 💡 Key Learnings from P'tao's Class
@@ -50,9 +64,8 @@ Focusing on **Visual Balance**, the Web version utilizes a multi-column structur
 
 ## 🚀 How to Run
 1. Clone this repository.
-2. Ensure the profile image exists at `assets/HDWi3XSa4AACQQm.jpeg`.
-3. Run `flutter pub get` to install dependencies.
-4. Run `flutter run` to launch the application.
+2. Run `flutter pub get` to install dependencies.
+3. Run `flutter run` to launch the application.
 
 ---
 **Developed by:** 662115922 Thanatchanan Kanjina
